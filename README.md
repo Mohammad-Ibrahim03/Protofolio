@@ -1,5 +1,8 @@
 # Protofolio
+<<<<<<< HEAD
 
+=======
+>>>>>>> d7738d3a67d6e10e5e1eec397b89c3809ae78ad5
 # Mohammad Ibrahim — Portfolio
 
 A personal portfolio website showcasing my work, skills, development approach, and selected projects as a **Full-Stack Web Developer & Software Engineer**.
@@ -115,4 +118,8 @@ If you'd like to discuss a project, collaboration, or development opportunity, f
 ---
 
 **Mohammad Ibrahim**
+<<<<<<< HEAD
 Full-Stack Web Developer & Software Engineer
+=======
+Full-Stack Web Developer & Software Engineer
+>>>>>>> d7738d3a67d6e10e5e1eec397b89c3809ae78ad5
