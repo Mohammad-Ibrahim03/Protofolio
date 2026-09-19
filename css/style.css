@@ -31,11 +31,11 @@ nav {
   padding: 0.5rem 0 0 0;
   border-radius: 20px;
 }
-a{
+a {
   color: inherit;
   text-decoration: none;
 }
-a:hover{
+a:hover {
   text-decoration: none;
   color: inherit;
 }
@@ -78,7 +78,6 @@ a:hover{
 #call-div {
   width: 20%;
 }
-
 
 .btn {
   border-radius: 30px;
@@ -208,16 +207,15 @@ main {
   color: #fff;
   border: 1px solid rgb(59, 59, 59);
 }
-#download-cv{
+#download-cv {
   display: block;
   width: 40%;
   margin: 1.5rem 0;
   align-items: center;
   text-align: center;
   box-shadow: 0 0 30px #02007d73;
-
 }
-#download-cv:hover{
+#download-cv:hover {
   background-color: #5f5f63c3;
   box-shadow: 0 0 50px #02007d;
 }
@@ -1195,7 +1193,6 @@ footer section p {
   z-index: 10;
 }
 
-
 /*  */
 
 .navbar-brand span {
@@ -1216,18 +1213,18 @@ footer section p {
   border-radius: 30px;
   padding: 6px 20px;
 }
-.burgerMenu{
+.burgerMenu {
   width: 24px;
   height: 16px;
   background-color: white;
   margin-bottom: 8px;
 }
-#for-aside{
-    width: 26px;
-    height: 33px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 26px;
+#for-aside {
+  width: 26px;
+  height: 33px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 26px;
 }
 /* ==========================================
    Mobile Media Queries (Above Services)
@@ -1239,7 +1236,6 @@ footer section p {
     padding: 0 10px;
   }
 
-  
   .call-div {
     text-align: center;
   }
@@ -1318,7 +1314,6 @@ footer section p {
     padding: 0 10px;
   }
 
-  
   .call-div {
     text-align: center;
   }
@@ -1338,13 +1333,13 @@ footer section p {
   #my-img {
     width: 100%;
   }
-  #my-img img{
+  #my-img img {
     width: 300px;
     height: 300px;
     border-radius: 150px;
     margin: 0 auto;
   }
-  .img-card{
+  .img-card {
     text-align: center;
   }
   #my-name {
@@ -1399,60 +1394,61 @@ footer section p {
   }
 }
 @media (max-width: 800px) {
-  #logo-div{
+  #logo-div {
     max-width: 27%;
   }
-  #navbarNav{
+  #navbarNav {
     display: flex;
   }
   #call-div {
     display: none;
   }
-  .navbar-nav{
+  .navbar-nav {
     display: none;
   }
-  footer{
+  footer {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
-  #third-section-footer ul{
+  #third-section-footer ul {
     text-align: center;
     display: flex;
     justify-content: center;
   }
-  .service-item{
+  .service-item {
     display: block;
   }
 }
 @media (max-width: 500px) {
-  #logo-div{
-        max-width: 27%;
+  #logo-div {
+    max-width: 27%;
   }
-  #navbarNav{
+  #navbarNav {
     display: flex;
   }
-  #menu-div,#call-div {
+  #menu-div,
+  #call-div {
     display: none;
   }
-  .navbar-nav{
+  .navbar-nav {
     display: none;
   }
-  footer{
+  footer {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
-  footer span{
+  footer span {
     font-size: 1.1rem;
   }
-  #third-section-footer ul{
+  #third-section-footer ul {
     text-align: center;
     display: flex;
     justify-content: center;
   }
-  .service-item{
+  .service-item {
     display: block;
   }
-  #menu-div{
+  #menu-div {
     display: block;
   }
 }
@@ -1464,9 +1460,9 @@ footer section p {
 
 /* Show it when the active class is injected by JS */
 #navbarNav.active {
-  display: block; 
+  display: block;
 }
 
-.display-none{
+.display-none {
   display: none;
 }
