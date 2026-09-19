@@ -31,6 +31,14 @@ nav {
   padding: 0.5rem 0 0 0;
   border-radius: 20px;
 }
+a{
+  color: inherit;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
 #logo-div {
   max-width: 27%;
 }
@@ -188,7 +196,7 @@ main {
 }
 .dark-btn {
   background-color: #010014;
-  box-shadow: 0 0 50px #02007d;
+  box-shadow: 0 0 30px #02007d;
   color: #fff;
   border: 1px solid #02007d;
 }
@@ -200,7 +208,19 @@ main {
   color: #fff;
   border: 1px solid rgb(59, 59, 59);
 }
+#download-cv{
+  display: block;
+  width: 40%;
+  margin: 1.5rem 0;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 30px #02007d73;
 
+}
+#download-cv:hover{
+  background-color: #5f5f63c3;
+  box-shadow: 0 0 50px #02007d;
+}
 /* Container Wrapper */
 .social-proof-container {
   display: inline-flex;
@@ -1445,4 +1465,8 @@ footer section p {
 /* Show it when the active class is injected by JS */
 #navbarNav.active {
   display: block; 
+}
+
+.display-none{
+  display: none;
 }
